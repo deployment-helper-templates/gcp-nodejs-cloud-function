@@ -1,0 +1,20 @@
+{
+  "name": "gcp-nodejs-cloud-function",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcrc-templates/gcp-nodejs-cloud-function.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcrc-templates/gcp-nodejs-cloud-function/issues"
+  },
+  "homepage": "https://github.com/mcrc-templates/gcp-nodejs-cloud-function#readme"
+}
