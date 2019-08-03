@@ -1,3 +1,3 @@
 exports.gcp_nodejs_template_testing = function(req,resp){
-    resp.send("<h1 style='text-algin:center;padding:200px;'>Hello World :) :)</h1>")
+    resp.send("<h1 style='text-align:center;padding:200px;'>Welcome to Nirvana</h1>")
 }
