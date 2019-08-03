@@ -1,11 +1,10 @@
 {
   "meta_data": {},
-  "repo_prepratoin": {
-    "index.js": [
-      {
-        "str": "gcp_nodejs_template_testing",
-        "newstr": "$APP_NAME"
-      }
-    ]
-  }
+  "repo_prepratoin": [
+    {
+      "file_path": "index.js",
+      "str": "gcp_nodejs_template_testing",
+      "newstr": "$APP_NAME"
+    }
+  ]
 }
