@@ -45,6 +45,9 @@ jobs:
             # reference - 
             echo $DEV_GCLOUD_ACCOUNT_KEY > key.json
             echo "##########################"
+            echo $DEV_GCLOUD_ACCOUNT_KEY
+            echo "##########################"
+            echo "##########################"
             cat key.json
             echo "##########################"
             wget https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-255.0.0-linux-x86_64.tar.gz
