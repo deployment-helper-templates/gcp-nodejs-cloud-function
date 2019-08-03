@@ -45,7 +45,7 @@ jobs:
             # reference - 
             echo $DEV_GCLOUD_ACCOUNT_KEY > key.json
             wget https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-228.0.0-linux-x86_64.tar.gz
-            tar -xvf google-cloud-sdk-228.0.0-linux-x86_64.tar.gz
+            tar -xf google-cloud-sdk-228.0.0-linux-x86_64.tar.gz
             CLOUDSDK_CORE_DISABLE_PROMPTS=1
             ./google-cloud-sdk/install.sh -q
             ./google-cloud-sdk/bin/gcloud auth activate-service-account --key-file key.json -q
