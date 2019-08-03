@@ -1,0 +1,11 @@
+{
+  "meta_data": {},
+  "file_prepration": {
+    "index.js": [
+      {
+        "str": "gcp_nodejs_template_testing",
+        "newstr": "$APP_NAME"
+      }
+    ]
+  }
+}
