@@ -56,9 +56,9 @@ jobs:
             echo $GCP_PROJECT_NAME
             echo $RUN_TIME
             
-            wget https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-255.0.0-linux-x86_64.tar.gz
-            tar -xf google-cloud-sdk-255.0.0-linux-x86_64.tar.gz
-            CLOUDSDK_CORE_DISABLE_PROMPTS=1
-            ./google-cloud-sdk/install.sh -q
-            ./google-cloud-sdk/bin/gcloud auth activate-service-account --key-file key.json -q
-            ./google-cloud-sdk/bin/gcloud functions deploy $APP_NAME --runtime $RUN_TIME --trigger-http --project $GCP_PROJECT_NAME
+            # wget https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-255.0.0-linux-x86_64.tar.gz
+            # tar -xf google-cloud-sdk-255.0.0-linux-x86_64.tar.gz
+            # CLOUDSDK_CORE_DISABLE_PROMPTS=1
+            # ./google-cloud-sdk/install.sh -q
+            # ./google-cloud-sdk/bin/gcloud auth activate-service-account --key-file key.json -q
+            # ./google-cloud-sdk/bin/gcloud functions deploy $APP_NAME --runtime $RUN_TIME --trigger-http --project $GCP_PROJECT_NAME
